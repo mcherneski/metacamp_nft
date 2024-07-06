@@ -75,3 +75,8 @@
       background-color: #FFDD23;
     }
   }
+
+  body,
+  html {
+    overflow: hidden;
+  }

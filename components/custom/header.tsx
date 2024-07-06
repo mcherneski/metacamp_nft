@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function Header () {
     return (
-    <div className='flex flex-row justify-center items-center p-8'>
+    <div className='flex flex-row justify-center items-center p-2'>
         <Image
             src='/MetaCamp_Logo_Red.png'
             alt='MetaCamp Logo'

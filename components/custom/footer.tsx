@@ -3,14 +3,13 @@ import Image from 'next/image'
 export function Footer() {
 
     return (
-        <div className='absolute bottom-0 flex flex-row justify-start items-center translate-y-12 translate-x-[-25px] sm:translate-y-0 sm:translate-x-0'>
+        <div className='absolute h-30 w-30 bottom-0 flex flex-row justify-center items-center translate-y-12 translate-x-[-25px] md:justify-end md:translate-y-0 md:translate-x-0'>
             <Image
                 src='/sunchair.png'
                 alt='MetaCamp Sun Chair'
                 width={300}
                 height={300}
             />
-            
         </div>
     )
 }

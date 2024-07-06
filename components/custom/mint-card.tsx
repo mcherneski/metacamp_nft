@@ -48,18 +48,24 @@ export function MintCard() {
             functionName: 'safeMint',
             args: [account.address]
         })
+            .then((data) => {
+                setMintError('')
+                console.log('Success Data: ', data)
+            })
             .catch((error) => {
                 console.log(error)
                 console.log('Error: ', error.message)
                 if (error.message.includes('recipient is not whitelisted')) {
                     setMintError('This wallet is not whitelisted!')
                 }
-
+                else{
+                    setMintError('Error Minting NFT!')
+                }
             })
     }
 
     return (
-        <Card className='flex flex-col justify-between items-center w-3/4 h-1/2 min-h-80 min-w-80 bg-white/85'>
+        <Card className='flex flex-col justify-between items-center w-1/2 h-1/2 min-h-80 min-w-60 sm:min-w-80 bg-white/85'>
             <CardHeader className='flex flex-row justify-center items-center'>
                 <ConnectButton accountStatus='address' chainStatus='none'/>
             </CardHeader>
@@ -69,6 +75,7 @@ export function MintCard() {
                     alt='NFT Image'
                     width={200}
                     height={200}
+                    className='h-1/2 w-1/2 sm:h-full sm:w-full'
                 />
             </CardContent>
             <CardFooter className='flex flex-col justify-center items-center'>

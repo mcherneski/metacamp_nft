@@ -75,7 +75,7 @@ export function MintCard() {
                     alt='NFT Image'
                     width={200}
                     height={200}
-                    className='h-1/2 w-1/2 sm:h-full sm:w-full'
+                    className='h-2/3 w-2/3 sm:h-full sm:w-full'
                 />
             </CardContent>
             <CardFooter className='flex flex-col justify-center items-center'>

@@ -8,7 +8,7 @@ export function Header () {
             alt='MetaCamp Logo'
             width={1000}
             height={800}
-            className='w-3/4 h-3/4'
+            className='w-3/4 h-3/4 md:w-1/2 md:h-1/2'
           />
     </div>
     )

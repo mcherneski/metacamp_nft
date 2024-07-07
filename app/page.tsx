@@ -7,7 +7,7 @@ export default function Home() {
     <div className='flex flex-col min-h-screen items-center justify-start nowrap'>
     <Header />
       <main className="flex flex-col items-center pb-8">
-        <div className='flex flex-col items-center justify-center mt-2 mb-12 h-1/2'>
+        <div className='flex flex-col items-center justify-center mt-8 mb-8 h-1/2'>
           <MintCard />
         </div>
       </main>

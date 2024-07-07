@@ -6,8 +6,8 @@ export function Header () {
         <Image
             src='/MetaCamp_Logo_Red.png'
             alt='MetaCamp Logo'
-            width={1000}
-            height={800}
+            width={800}
+            height={600}
             className='w-3/4 h-3/4 md:w-1/2 md:h-1/2'
           />
     </div>

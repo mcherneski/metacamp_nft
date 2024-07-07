@@ -9,7 +9,7 @@ export function Footer() {
                 alt='MetaCamp Sun Chair'
                 width={300}
                 height={300}
-                className='w-2/3 h-2/3 md:w-3/4 md:h-3/4 translate-y-[-50px]'
+                className='w-1/2 h-1/2 md:w-2/3 md:h-2/3 translate-y-[-50px]'
             />
         </div>
     )

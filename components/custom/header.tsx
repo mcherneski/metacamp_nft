@@ -2,12 +2,13 @@ import Image from 'next/image'
 
 export function Header () {
     return (
-    <div className='flex flex-row justify-center items-center p-4'>
+    <div className='flex flex-row justify-center items-center py-4'>
         <Image
             src='/MetaCamp_Logo_Red.png'
             alt='MetaCamp Logo'
             width={1000}
             height={800}
+            className='w-3/4 h-3/4'
           />
     </div>
     )

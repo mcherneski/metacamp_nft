@@ -46,7 +46,7 @@ export function MintCard() {
             return
         }
         writeContractAsync({
-            address: '0x2eb0DD9b136Da8Cbd6089209baa952e6c897C3Ee',
+            address: '0x6aB3fF6278c80a3Bb76E3D9E786329506f0A8388',
             abi: wagmiContractConfig.abi,
             functionName: 'safeMint',
             args: [account.address]

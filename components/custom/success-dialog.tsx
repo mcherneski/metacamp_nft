@@ -29,7 +29,7 @@ import {
                 Your NFT has been minted successfully.
                 <br />
                 <a
-                    href={`https://sepolia.basescan.org/tx/${txHash}`} 
+                    href={`https://basescan.org/tx/${txHash}`} 
                     target='_blank'
                     className='text-red-500 hover:text-red-800 underline cursor-pointer'
                 >

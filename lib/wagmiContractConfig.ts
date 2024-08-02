@@ -1,7 +1,7 @@
 import { abi } from './MetaCampNFT'
 
 const wagmiContractConfig = {
-    address: 0x2eb0DD9b136Da8Cbd6089209baa952e6c897C3Ee,
+    address: 0x4C791bD82d3089fea1bDA94aFD735BE219282f1e,
     abi: abi
 }
 

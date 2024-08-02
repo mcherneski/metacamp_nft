@@ -1,4 +1,4 @@
-import React, {ReactNode} from 'react'
+import React from 'react'
 import {
     AlertDialog,
     AlertDialogAction,
@@ -29,11 +29,11 @@ import {
                 Your NFT has been minted successfully.
                 <br />
                 <a
-                    href={`https://sepolia.basescan.org/tx/${txHash}`} 
+                    href={`https://basescan.org/tx/${txHash}`} 
                     target='_blank'
                     className='text-red-500 hover:text-red-800 underline cursor-pointer'
                 >
-                    View on Etherscan
+                    View on Basescan
                 </a>
             </AlertDialogDescription>
             <AlertDialogFooter>

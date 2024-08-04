@@ -14,7 +14,6 @@ import { config } from '@/app/wagmi'
 
 const queryClient = new QueryClient()
 
-
 export const Providers = ({ children }: {children: React.ReactNode}) => {
 
     return(
@@ -25,7 +24,6 @@ export const Providers = ({ children }: {children: React.ReactNode}) => {
                         accentColor: '#FF0000',
                     }
                 )}
-
                 >
                     {children}
                 </RainbowKitProvider>

@@ -80,7 +80,7 @@ export function MintCard() {
             
             <Card className='flex flex-col justify-between items-center w-1/2 h-1/2 min-h-80 min-w-60 sm:min-w-80 bg-white/85'>
                 <CardHeader className='flex flex-row justify-center items-center'>
-                    <ConnectButton accountStatus='address' chainStatus='none'/>
+                    <ConnectButton chainStatus={"icon"} accountStatus={"address"} label='Connect to Base' showBalance={true} />
                 </CardHeader>
                 <CardContent className='flex flex-col justify-center items-center'>
                     <Image
@@ -106,7 +106,7 @@ export function MintCard() {
                             </Button>
                         ) : (
                             <Button size='lg' className='rounded-lg font-bold' style={{ backgroundColor: 'red' }} variant='default' onClick={() => MintNFT()}>
-                                {isPending ? 'Confirming' : 'Mint NFT'}
+                                {isPending ? 'Confirming' : 'Mint NFT on Base'}
                             </Button>
                         )
                     }
